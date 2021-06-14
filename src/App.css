@@ -6,12 +6,8 @@
   color: rgb(40, 48, 168);
 }
 body {
-  background-image: linear-gradient(to right bottom, #2998ff, #ff7730);
-  background-size: cover;
-  background-position: center;
   font-family: Lato;
   font-weight: 300;
-  height: 100vh;
   position: relative;
 }
 #root {
@@ -35,16 +31,6 @@ body {
   margin-right: 10px;
   outline: none;
 }
-.add-rst {
-  color: #fff;
-  background-color: grey;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 20px;
-  margin-right: 10px;
-  outline: none;
-
-}
 .all-card-wrapper {
   width: 100%;
 }
@@ -57,25 +43,11 @@ body {
     border: 1px solid #aaa;
     border-radius: 2px;
     cursor: pointer;
-    padding: 30px 15px;
+    padding:  15px;
     font-size: 18px;
     z-index: 20;
 }
-.each-card-completed {
-  background-color: #132d9e;
-  border: 1px solid #aaa;
-  border-radius: 2px;
-  cursor: pointer;
-  color: #fff;
-  padding: 30px 15px;
-  font-size: 18px;
-  z-index: 20;
-
-}
-.completed-todos {
-  margin: 30px auto;
-}
-.completed-task {
+.all-task {
   margin-bottom: 20px;
 }
 .todo-app-content {
@@ -102,34 +74,5 @@ body {
   }
   .todo-app-content {
     width: 100%;
-  }
-}
-.app-instructions-wrapper {
-  position: absolute;
-  width: 400px;
-  top: 50px;
-  right: 50px;
-  box-shadow: 0 4px 40px #75b6f398;
-  border-radius: 10px;
-  padding: 15px;
-  height: 300px;
-  overflow-y: scroll;
-}
-.content-intructions p {
-  color: #fff;
-  font-size: 13px;
-}
-.content-intructions p span{
-  color: rgb(67, 47, 180);
-  font-size: 16px;
-  font-weight: bold;
-}
-.close-btn {
-  font-size: 30px;
-  color: rgb(109, 12, 12);
-}
-@media (max-width: 1199px) { 
-  .app-instructions-wrapper {
-    display: none;
   }
 }
